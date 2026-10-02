@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nightly — Privacy Policy</title>
+  <meta name="description" content="How Nightly handles account information, event submissions, location, and optional usage analytics.">
+  <style>
+    :root { color-scheme: light; --paper:#fff8ee; --ink:#241b2f; --muted:#5c5366; --link:#943b21; --line:#eadfcd; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:1rem/1.7 system-ui,sans-serif; }
+    main { max-width:76ch; margin:auto; padding:2rem 1.5rem 4rem; }
+    h1 { font-size:clamp(2rem,6vw,3rem); line-height:1.15; margin:1.5rem 0 .75rem; }
+    h2 { font-size:1.35rem; line-height:1.3; margin:2rem 0 .75rem; }
+    p,li { overflow-wrap:anywhere; }
+    li+li { margin-top:.6rem; }
+    a { color:var(--link); text-underline-offset:.2em; }
+    a:focus-visible { outline:3px solid var(--link); outline-offset:4px; }
+    nav a { display:inline-block; padding:.65rem 0; }
+    .muted { color:var(--muted); }
+    footer { border-top:1px solid var(--line); margin-top:2.5rem; padding-top:1rem; }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Policy navigation"><a href="./">Support home</a></nav>
+  <h1>Nightly Privacy Policy</h1>
+  <p class="muted">Last updated: October 2, 2026</p>
+  <p>Nightly is an app operated by Vitush Agarwal for discovering local events, following people, choosing Interested or Going, and sharing event listings. This policy covers the Nightly iOS app, including TestFlight builds. Its technical identifiers and support-site address retain the earlier Grove name.</p>
+
+  <h2>Information used to provide the app</h2>
+  <ul>
+    <li><strong>Account and profile:</strong> email address, account identifier, authentication information, display name, username, and any profile photo or biography you provide. We use these to sign you in and show your profile.</li>
+    <li><strong>Preferences and social activity:</strong> home city, discovery preferences, attendance visibility, people you follow, and Interested or Going selections. We use these for discovery and the app’s social features.</li>
+    <li><strong>Location:</strong> your selected city or discovery area, and device location when you grant permission and request nearby results. Location is used to find events and calculate distances. Nightly does not request background location access. You can use a manually selected city and change device permissions in iOS Settings.</li>
+    <li><strong>Content you submit:</strong> event details, artwork, flyers, screenshots, reports, and support communications. Event images are re-encoded before upload to remove embedded metadata such as GPS tags.</li>
+    <li><strong>Service diagnostics:</strong> request identifiers, operation timings, failure categories, and security or connection logs needed to run and protect the service. Infrastructure providers may process IP addresses and other connection information.</li>
+  </ul>
+
+  <h2>What other people can see</h2>
+  <p>Profiles, follow relationships, and published event listings support discovery and social features. Published listings and artwork may be visible to other users and the public. Attendance visibility can be set to everyone, followers, or only you; aggregate attendance counts can still include private selections. Your email and private account settings are not public profile fields. Do not submit information or images that you do not want included in a public event listing.</p>
+
+  <h2>Flyer analysis and service providers</h2>
+  <p>Nightly uses Supabase for authentication, database services, file storage, and backend operations. When you ask Nightly to analyze a flyer, the image and recognized text are processed by our backend and the configured AI service, currently OpenRouter and the model provider it routes the request to. The resulting draft is shown for your review before publication. These providers process the information needed to supply their services under their own applicable terms and privacy practices.</p>
+  <p>Apple services support maps, location search, photo selection, and calendar features. Opening an external event or ticket link takes you to a separate service with its own privacy practices. Our support site is hosted by GitHub Pages.</p>
+
+  <h2 id="analytics">Optional usage analytics</h2>
+  <p>Nightly uses PostHog to understand how people use the app and improve reliability. Optional usage analytics include screens and event listings opened, RSVP changes, signup and onboarding progress, event-creation steps, operation durations, and error categories. Activity is associated with a random installation identifier before sign-in and your account identifier after sign-in. This lets us understand usage and return visits without sending your name or email to PostHog.</p>
+  <p>We do not include search text, draft contents, images, precise location, passwords, or raw server error responses in this analytics. We do not enable session replay or automatic capture of taps, screen contents, or typed text. We do not use this analytics for advertising tracking or sell it to advertisers.</p>
+  <p>Usage analytics is enabled by default. You can turn off <strong>Share usage analytics</strong> from <strong>Privacy &amp; analytics</strong> before signing in or from <strong>Profile → Privacy</strong>. The choice applies to this device. Turning it off stops new optional analytics and clears activity waiting to upload; it cannot recall a request already transmitted or delete activity already received. Turning it on starts fresh without backfilling activity from when it was disabled. Essential service logs used to operate Nightly are separate from this setting.</p>
+  <p>PostHog collection for Nightly uses its US cloud service. Our providers may process data outside the place where you live.</p>
+
+  <h2>Retention, access, and deletion requests</h2>
+  <p>We retain account information, submitted content, and service records as needed to provide Nightly, maintain reliability and security, resolve issues, and meet applicable obligations. Retention can differ between the app database, analytics, provider logs, and backups. Turning off analytics does not delete historical records.</p>
+  <p>You can edit your profile and privacy preferences in the app. To request access, correction, or deletion of your account or associated data, email <a href="mailto:vitush99@gmail.com">vitush99@gmail.com</a>. We may ask for information needed to verify that the request concerns your account. Public event information or records required for security, legal obligations, or other users’ legitimate use may need separate handling.</p>
+
+  <h2>Changes and contact</h2>
+  <p>We may update this policy as Nightly changes. The date above identifies the current version. Privacy questions and requests can be sent to <a href="mailto:vitush99@gmail.com">vitush99@gmail.com</a>.</p>
+  <footer class="muted">© 2026 Vitush Agarwal · Nightly</footer>
+</main>
+</body>
+</html>
